@@ -1,0 +1,317 @@
+/* =========================================
+   UNIVERSAL SELECTOR
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+/* =========================================
+   ELEMENT SELECTOR
+   ========================================= */
+
+body {
+    background-color: #eef4ff;
+    color: #222222;
+    background-image: url("background.png");
+
+    margin: 20px;
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   ID SELECTOR
+   ========================================= */
+
+#home {
+    background-color: rgb(219, 232, 255);
+
+    text-align: center;
+
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+
+    border-style: solid;
+    border-color: #3366cc;
+    border-radius: 15px;
+}
+
+
+/* =========================================
+   PROFILE PHOTO
+   ========================================= */
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+
+    margin: 10px auto;
+    padding: 5px;
+
+    border-style: solid;
+    border-color: rgb(51, 102, 204);
+    border-radius: 80px;
+}
+
+
+/* =========================================
+   GROUPING SELECTOR
+   ========================================= */
+
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* =========================================
+   H1
+   ========================================= */
+
+h1 {
+    color: #1f4e8c;
+
+    font-size: 34px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #1f4e8c;
+}
+
+
+/* =========================================
+   H2
+   ========================================= */
+
+h2 {
+    color: rgb(44, 90, 160);
+
+    font-size: 24px;
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #2c5aa0;
+}
+
+
+/* =========================================
+   CLASS SELECTOR
+   ========================================= */
+
+.intro {
+    color: rgba(31, 78, 140, 0.9);
+
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.small-text {
+    font-size: 14px;
+    font-style: italic;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   SECTION BOX
+   BOX MODEL
+   ========================================= */
+
+.section-box {
+    background-color: white;
+
+    margin: 20px;
+    padding: 20px;
+
+    border-style: solid;
+    border-color: #b8c9e8;
+    border-radius: 12px;
+}
+
+
+/* =========================================
+   PARAGRAPH
+   ========================================= */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   LIST
+   ========================================= */
+
+ul {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   TABLE
+   ========================================= */
+
+table {
+    width: 100%;
+
+    text-align: left;
+
+    border-style: solid;
+    border-color: #3366cc;
+    border-radius: 5px;
+}
+
+
+/* =========================================
+   TABLE HEADING
+   ========================================= */
+
+th {
+    background-color: #3366cc;
+    color: white;
+
+    padding: 10px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   TABLE DATA
+   ========================================= */
+
+td {
+    padding: 10px;
+
+    border-style: solid;
+    border-color: #b8c9e8;
+}
+
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+    color: #1f4e8c;
+
+    font-weight: 700;
+
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #1f4e8c;
+}
+
+
+/* =========================================
+   PRE TAG
+   ========================================= */
+
+pre {
+    background-color: #eeeeee;
+
+    color: #222222;
+
+    padding: 15px;
+
+    border-style: solid;
+    border-color: #999999;
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+
+/* =========================================
+   SKILLS
+   ========================================= */
+
+.skill {
+    background-color: #e6efff;
+
+    width: 250px;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-style: solid;
+    border-color: #7094cc;
+    border-radius: 8px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   FONT ICONS
+   ========================================= */
+
+.skill i,
+.github-text i,
+aside i {
+    font-size: 18px;
+}
+
+
+/* =========================================
+   GITHUB
+   ========================================= */
+
+.github-text {
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+
+
+/* =========================================
+   VISIBILITY PROPERTY
+   ========================================= */
+
+#programming {
+    visibility: visible;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+    background-color: rgba(219, 232, 255, 0.9);
+
+    text-align: center;
+
+    padding: 15px;
+    margin-top: 20px;
+
+    border-style: solid;
+    border-color: #3366cc;
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   HR
+   ========================================= */
+
+hr {
+    border-style: solid;
+    border-color: #7094cc;
+}
